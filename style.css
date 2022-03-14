@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montsserrat', sans-serif;
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Projetos/Login/software.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.area-login{
+    border-radius: 10px;
+    border-top: 5px solid #49FF00;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(17, 17, 17);
+}
+
+.area-login h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.area-login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.area-login input{
+    margin-top: 20px;
+}
+
+.area-login p{
+    margin-top: 25px;
+}
+
+.area-login input{
+    padding-left: 10px;
+    width: 250px;
+    height:40px;
+    background-color: #222;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montsserrat', sans-serif;
+}
+
+.area-login p{
+    color: white;
+}
+
+.area-login .button{
+    background-color: #49FF00;
+    color: black;
+}
+
+.area-login .button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #222;
+    transition: all 300ms ease;
+}
+
+@media screen and (max-width: 800px){
+    .area-login form{
+        width: 70vw;
+        height: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area-login h2{
+        margin-top: 30px;
+    }
+
+    .area-login p{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .area-login form{
+        width: 50vw;
+        height: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area-login h2{
+        margin-top: 40px;
+    }
+
+    .area-login p{
+        margin-bottom: 40px;
+    }
+}
